@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: SpringBootMail
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: 210304124014@paruluniversity.ac.in
+    password: qufv nbar godp tjcj
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
